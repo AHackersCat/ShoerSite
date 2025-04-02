@@ -10,6 +10,12 @@
     <title>Shoer</title>
   </head>
   <body>
+    <script>
+      const { createClient } = supabase
+      const _supabase = createClient('https://pwtttljyqtiswqvlgapw.supabase.co', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InB3dHR0bGp5cXRpc3dxdmxnYXB3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDM2MTAzNDgsImV4cCI6MjA1OTE4NjM0OH0.iW5SR5BusYv2mXu7h_hmkCsxJMwwgh3yaP7rvThzyr8')
+      console.log('Supabase Instance: ', _supabase)
+      // ...
+    </script>
         <h1>Shoer</h1>
         <h2>Dev's To-Do List</h2>
         <ul>
